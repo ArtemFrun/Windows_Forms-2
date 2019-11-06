@@ -24,6 +24,9 @@ namespace Exsplorer_2._0
                 treeView1.Nodes.Add(node);
                 Directory_name(node, node.FullPath);
             }
+            listView1.View = View.LargeIcon;
+            listView1.LargeImageList = imageList1;
+            listView1.SmallImageList = imageList1;
         }
 
         private void treeView1_AfterSelect(object sender, TreeViewEventArgs e)
@@ -51,6 +54,43 @@ namespace Exsplorer_2._0
                     TreeNode ntr = new TreeNode(tmp[tmp.Length - 1]);
 
                     tree.Nodes.Add(ntr);
+                }
+            }
+            catch (Exception)
+            {
+            }
+        }
+
+        private void TreeView1_MouseDoubleClick(object sender, MouseEventArgs e)
+        {
+            if (e.Button == MouseButtons.Left)
+            {
+                string newPath = treeView1.SelectedNode.FullPath.Replace("\\\\", "\\");
+                ListView_Fill(newPath);
+            }
+        }
+
+        private void ListView_Fill(string path)
+        {
+            try
+            {
+                listView1.Items.Clear();
+                string[] dirs = Directory.GetDirectories(path);
+
+                foreach (string dr in dirs)
+                {
+                    string[] name = dr.Split('\\');
+
+                    listView1.Items.Add(name[name.Length - 1]);
+                }
+
+                string[] files = Directory.GetFiles(path);
+
+                foreach (string file in files)
+                {
+                    string[] name = file.Split('\\');
+
+                    listView1.Items.Add(name[name.Length - 1]);
                 }
             }
             catch (Exception)
