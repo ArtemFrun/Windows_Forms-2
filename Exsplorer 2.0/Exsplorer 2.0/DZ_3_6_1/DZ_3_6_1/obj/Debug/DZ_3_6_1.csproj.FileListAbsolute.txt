@@ -1,0 +1,10 @@
+C:\Users\group-bbv182\source\repos\DZ_3_6_1\DZ_3_6_1\obj\Debug\DZ_3_6_1.csprojAssemblyReference.cache
+C:\Users\group-bbv182\source\repos\DZ_3_6_1\DZ_3_6_1\obj\Debug\DZ_3_6_1.Form1.resources
+C:\Users\group-bbv182\source\repos\DZ_3_6_1\DZ_3_6_1\obj\Debug\DZ_3_6_1.Properties.Resources.resources
+C:\Users\group-bbv182\source\repos\DZ_3_6_1\DZ_3_6_1\obj\Debug\DZ_3_6_1.csproj.GenerateResource.cache
+C:\Users\group-bbv182\source\repos\DZ_3_6_1\DZ_3_6_1\obj\Debug\DZ_3_6_1.csproj.CoreCompileInputs.cache
+C:\Users\group-bbv182\source\repos\DZ_3_6_1\DZ_3_6_1\bin\Debug\DZ_3_6_1.exe.config
+C:\Users\group-bbv182\source\repos\DZ_3_6_1\DZ_3_6_1\bin\Debug\DZ_3_6_1.exe
+C:\Users\group-bbv182\source\repos\DZ_3_6_1\DZ_3_6_1\bin\Debug\DZ_3_6_1.pdb
+C:\Users\group-bbv182\source\repos\DZ_3_6_1\DZ_3_6_1\obj\Debug\DZ_3_6_1.exe
+C:\Users\group-bbv182\source\repos\DZ_3_6_1\DZ_3_6_1\obj\Debug\DZ_3_6_1.pdb

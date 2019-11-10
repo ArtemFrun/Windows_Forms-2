@@ -13,6 +13,7 @@ namespace Exsplorer_2._0
 {
     public partial class Form1 : Form
     {
+        string path_file = "";
         public Form1()
         {
             InitializeComponent();
@@ -26,6 +27,7 @@ namespace Exsplorer_2._0
             Image_ADD();
             listView1.View = View.LargeIcon;
             listView1.LargeImageList = imageList1;
+            listView1.AllowDrop = true;
         }
 
         private void treeView1_AfterSelect(object sender, TreeViewEventArgs e)
@@ -65,7 +67,9 @@ namespace Exsplorer_2._0
             if (e.Button == MouseButtons.Left)
             {
                 string newPath = treeView1.SelectedNode.FullPath.Replace("\\\\", "\\");
+                path_file = newPath;
                 ListView_Fill(newPath);
+                Direct_and_Filee_Info(newPath);
             }
         }
 
@@ -94,6 +98,27 @@ namespace Exsplorer_2._0
             }
             catch (Exception)
             {
+            }
+        }
+
+        private void Direct_and_Filee_Info (string path)
+        {
+            listView2.Items.Clear();
+            DirectoryInfo drinfo = new DirectoryInfo(path);
+            if (drinfo.Exists != false)
+            {
+                listView2.Items.Add("Полное имя " + drinfo.FullName);
+                listView2.Items.Add("Дата создания " + drinfo.CreationTime.ToString());
+            }
+            else
+            {
+                FileInfo finfo = new FileInfo(path);
+                if (finfo.Exists == true)
+                {
+                    listView2.Items.Add("Полное имя " + finfo.FullName);
+                    listView2.Items.Add("Дата создания " + finfo.CreationTime.ToString());
+                    listView2.Items.Add("Размер " +finfo.Length.ToString());
+                }
             }
         }
 
@@ -148,6 +173,52 @@ namespace Exsplorer_2._0
             listView1.View = View.Details;
             imageList1.ImageSize = new Size(16, 16);
             Image_ADD();
+        }
+
+        private void toolStripButton1_Click(object sender, EventArgs e)
+        {
+            Form3 form3 = new Form3();
+            form3.Show();
+        }
+
+        //Перетаскивания файла с формы listView
+        private void listView1_ItemDrag(object sender, ItemDragEventArgs e)
+        {
+
+            try
+            {
+                string fullname = e.Item.ToString();
+                string[] names = fullname.Split('{', '}', ':');
+                string name = names[names.Length - 2];
+                string path = path_file + "\\" + name;
+                DoDragDrop(path, DragDropEffects.Copy | DragDropEffects.Move);
+            }
+            catch (Exception exception)
+            {
+                MessageBox.Show($"{exception.Message}", "Ошибка", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                Refresh();
+            }
+            
+        }
+
+        private void listView1_MouseDoubleClick(object sender, MouseEventArgs e)
+        {
+
+            if (e.Button == MouseButtons.Left)
+            {
+                if (listView1.SelectedIndices.Count >0)
+                {
+                    for (int i = 0; i < listView1.SelectedItems.Count; i++)
+                    {
+                        if (listView1.SelectedItems[i].Selected == true)
+                        {
+                            string name = listView1.SelectedItems[i].Text;
+                            string path = path_file + "\\" + name;
+                            Direct_and_Filee_Info(path);
+                        }
+                    }
+                }
+            }
         }
     }
 }
