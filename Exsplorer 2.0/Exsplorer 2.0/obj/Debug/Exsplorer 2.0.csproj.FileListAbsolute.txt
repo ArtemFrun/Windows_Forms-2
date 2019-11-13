@@ -27,3 +27,4 @@ C:\Users\tjomka777tjomka777\Documents\GitHub\Windows_Forms-2\Exsplorer 2.0\Exspl
 C:\Users\tjomka777tjomka777\Documents\GitHub\Windows_Forms-2\Exsplorer 2.0\Exsplorer 2.0\obj\Debug\Exsplorer 2.0.exe
 C:\Users\tjomka777tjomka777\Documents\GitHub\Windows_Forms-2\Exsplorer 2.0\Exsplorer 2.0\obj\Debug\Exsplorer 2.0.pdb
 C:\Users\tjomka777tjomka777\Documents\GitHub\Windows_Forms-2\Exsplorer 2.0\Exsplorer 2.0\obj\Debug\Exsplorer_2._0.Form3.resources
+C:\Users\group-bbv182\Documents\GitHub\Windows_Forms-2\Exsplorer 2.0\Exsplorer 2.0\obj\Debug\Exsplorer_2._0.Form3.resources

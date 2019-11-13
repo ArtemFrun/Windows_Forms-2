@@ -1,0 +1,10 @@
+C:\Users\group-bbv182\source\repos\MDI-приложение\MDI-приложение\bin\Debug\MDI-приложение.exe.config
+C:\Users\group-bbv182\source\repos\MDI-приложение\MDI-приложение\bin\Debug\MDI-приложение.exe
+C:\Users\group-bbv182\source\repos\MDI-приложение\MDI-приложение\bin\Debug\MDI-приложение.pdb
+C:\Users\group-bbv182\source\repos\MDI-приложение\MDI-приложение\obj\Debug\MDI-приложение.csprojAssemblyReference.cache
+C:\Users\group-bbv182\source\repos\MDI-приложение\MDI-приложение\obj\Debug\MDI_приложение.Form1.resources
+C:\Users\group-bbv182\source\repos\MDI-приложение\MDI-приложение\obj\Debug\MDI_приложение.Properties.Resources.resources
+C:\Users\group-bbv182\source\repos\MDI-приложение\MDI-приложение\obj\Debug\MDI-приложение.csproj.GenerateResource.cache
+C:\Users\group-bbv182\source\repos\MDI-приложение\MDI-приложение\obj\Debug\MDI-приложение.csproj.CoreCompileInputs.cache
+C:\Users\group-bbv182\source\repos\MDI-приложение\MDI-приложение\obj\Debug\MDI-приложение.exe
+C:\Users\group-bbv182\source\repos\MDI-приложение\MDI-приложение\obj\Debug\MDI-приложение.pdb
