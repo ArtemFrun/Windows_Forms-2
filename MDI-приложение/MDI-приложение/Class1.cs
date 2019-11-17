@@ -6,14 +6,13 @@ using System.Threading.Tasks;
 
 namespace MDI_приложение
 {
-    class Bus_flight
+    [Serializable]
+    public class Bus_flight
     {
-        public int nomber { get; set; }
+        public string nomber { get; set; }
         public string type { get; set; }
         public string destination { get; set; }
-        public DateTime departure_date { get; set; }
-        public DateTime departure_time { get; set; }
-        public DateTime arrivale_date { get; set; }
-        public DateTime arrivale_time { get; set; }
+        public DateTime departure_date_and_time { get; set; }
+        public DateTime arrivale_date_and_time { get; set; }
     }
 }

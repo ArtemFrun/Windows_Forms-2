@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<ArrayOfBus_flight xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Bus_flight>
+    <nomber>asd</nomber>
+    <type>asd</type>
+    <destination>asd</destination>
+    <departure_date_and_time>2019-10-10T10:10:00</departure_date_and_time>
+    <arrivale_date_and_time>2019-10-10T20:10:00</arrivale_date_and_time>
+  </Bus_flight>
+  <Bus_flight>
+    <nomber>asd</nomber>
+    <type>asd</type>
+    <destination>asd</destination>
+    <departure_date_and_time>2019-10-10T10:10:00</departure_date_and_time>
+    <arrivale_date_and_time>2019-10-10T20:10:00</arrivale_date_and_time>
+  </Bus_flight>
+  <Bus_flight>
+    <nomber>123</nomber>
+    <type>asd</type>
+    <destination>Черновцы</destination>
+    <departure_date_and_time>2019-10-20T20:10:00</departure_date_and_time>
+    <arrivale_date_and_time>2019-10-21T08:00:00</arrivale_date_and_time>
+  </Bus_flight>
+</ArrayOfBus_flight>
