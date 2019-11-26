@@ -17,3 +17,12 @@ C:\Users\tjomka777tjomka777\Documents\GitHub\Windows_Forms-2\MDI-приложе�
 C:\Users\tjomka777tjomka777\Documents\GitHub\Windows_Forms-2\MDI-приложение\MDI-приложение\obj\Debug\MDI-приложение.csproj.GenerateResource.cache
 C:\Users\tjomka777tjomka777\Documents\GitHub\Windows_Forms-2\MDI-приложение\MDI-приложение\obj\Debug\MDI-приложение.exe
 C:\Users\tjomka777tjomka777\Documents\GitHub\Windows_Forms-2\MDI-приложение\MDI-приложение\obj\Debug\MDI-приложение.pdb
+C:\Users\group-bbv182\Documents\GitHub\Windows_Forms-2\MDI-приложение\MDI-приложение\bin\Debug\MDI-приложение.exe.config
+C:\Users\group-bbv182\Documents\GitHub\Windows_Forms-2\MDI-приложение\MDI-приложение\bin\Debug\MDI-приложение.exe
+C:\Users\group-bbv182\Documents\GitHub\Windows_Forms-2\MDI-приложение\MDI-приложение\bin\Debug\MDI-приложение.pdb
+C:\Users\group-bbv182\Documents\GitHub\Windows_Forms-2\MDI-приложение\MDI-приложение\obj\Debug\MDI-приложение.csprojAssemblyReference.cache
+C:\Users\group-bbv182\Documents\GitHub\Windows_Forms-2\MDI-приложение\MDI-приложение\obj\Debug\MDI_приложение.Form1.resources
+C:\Users\group-bbv182\Documents\GitHub\Windows_Forms-2\MDI-приложение\MDI-приложение\obj\Debug\MDI_приложение.Properties.Resources.resources
+C:\Users\group-bbv182\Documents\GitHub\Windows_Forms-2\MDI-приложение\MDI-приложение\obj\Debug\MDI-приложение.csproj.GenerateResource.cache
+C:\Users\group-bbv182\Documents\GitHub\Windows_Forms-2\MDI-приложение\MDI-приложение\obj\Debug\MDI-приложение.exe
+C:\Users\group-bbv182\Documents\GitHub\Windows_Forms-2\MDI-приложение\MDI-приложение\obj\Debug\MDI-приложение.pdb

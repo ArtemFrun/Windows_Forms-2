@@ -28,6 +28,7 @@ namespace Exsplorer_2._0
             listView1.View = View.LargeIcon;
             listView1.LargeImageList = imageList1;
             listView1.AllowDrop = true;
+            treeView1.HideSelection = true;
         }
 
         private void treeView1_AfterSelect(object sender, TreeViewEventArgs e)
@@ -56,6 +57,7 @@ namespace Exsplorer_2._0
 
                     tree.Nodes.Add(ntr);
                 }
+                
             }
             catch (Exception)
             {
