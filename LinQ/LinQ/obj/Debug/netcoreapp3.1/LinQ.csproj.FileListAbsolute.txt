@@ -1,0 +1,11 @@
+C:\Users\tjomka777tjomka777\Source\Repos\LinQ\LinQ\bin\Debug\netcoreapp3.1\LinQ.exe
+C:\Users\tjomka777tjomka777\Source\Repos\LinQ\LinQ\obj\Debug\netcoreapp3.1\LinQ.csprojAssemblyReference.cache
+C:\Users\tjomka777tjomka777\Source\Repos\LinQ\LinQ\obj\Debug\netcoreapp3.1\LinQ.AssemblyInfoInputs.cache
+C:\Users\tjomka777tjomka777\Source\Repos\LinQ\LinQ\obj\Debug\netcoreapp3.1\LinQ.AssemblyInfo.cs
+C:\Users\tjomka777tjomka777\Source\Repos\LinQ\LinQ\bin\Debug\netcoreapp3.1\LinQ.deps.json
+C:\Users\tjomka777tjomka777\Source\Repos\LinQ\LinQ\bin\Debug\netcoreapp3.1\LinQ.runtimeconfig.json
+C:\Users\tjomka777tjomka777\Source\Repos\LinQ\LinQ\bin\Debug\netcoreapp3.1\LinQ.runtimeconfig.dev.json
+C:\Users\tjomka777tjomka777\Source\Repos\LinQ\LinQ\bin\Debug\netcoreapp3.1\LinQ.dll
+C:\Users\tjomka777tjomka777\Source\Repos\LinQ\LinQ\bin\Debug\netcoreapp3.1\LinQ.pdb
+C:\Users\tjomka777tjomka777\Source\Repos\LinQ\LinQ\obj\Debug\netcoreapp3.1\LinQ.dll
+C:\Users\tjomka777tjomka777\Source\Repos\LinQ\LinQ\obj\Debug\netcoreapp3.1\LinQ.pdb
